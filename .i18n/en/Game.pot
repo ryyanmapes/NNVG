@@ -1,0 +1,147 @@
+msgid ""
+msgstr "Project-Id-Version: Game v4.28.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-03\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: Game
+msgid "Prove things about the natural numbers by dragging and clicking."
+msgstr ""
+
+#: GameServer.CompletionMessages
+#: GameServer.RpcHandlers
+msgid "level completed! 🎉"
+msgstr ""
+
+#: Game.Levels.Proposition.L06_SplittingAnd
+msgid "Splitting And"
+msgstr ""
+
+#: Game.Levels.Rewrite.L02_ManySubstitutions
+msgid "Many Substitutions"
+msgstr ""
+
+#: Game.Levels.Proposition
+msgid "Proposition World"
+msgstr ""
+
+#: Game.Levels.Proposition.L01_MatchingGoals
+msgid "Matching Goals"
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "intermediate goal solved! 🎉"
+msgstr ""
+
+#: Game.Levels.Intro.L01_Welcome
+msgid "Welcome to the Natural Numbers Video Game!\n"
+"\n"
+"Though you'll be using a simplified visual interface, make no mistake: running in the\n"
+"background on your device is a Lean server translating every move into formal\n"
+"mathematical code. This is not just a game about mathematics: it is mathematics!\n"
+"\n"
+"So, without further ado, let's get started!"
+msgstr ""
+
+#: Game.Levels.Intro.L01_Welcome
+#: Game.Levels.Intro
+msgid "Welcome"
+msgstr ""
+
+#: Game.Levels.Proposition.L02_Implication
+msgid "Implication"
+msgstr ""
+
+#: Game.Levels.Rewrite
+msgid "Prove equalities by substituting equal things for each other until both sides match."
+msgstr ""
+
+#: Game.Levels.Proposition
+msgid "Prove propositions by combining what you know."
+msgstr ""
+
+#: Game
+msgid "Natural Numbers Video Game"
+msgstr ""
+
+#: Game.Levels.Rewrite.L01_Substitution
+msgid "Substitution"
+msgstr ""
+
+#: Game.Levels.Rewrite.L05_ClickToRewrite
+msgid "Click to Rewrite"
+msgstr ""
+
+#: GameServer.CompletionMessages
+#: GameServer.RpcHandlers
+msgid "level completed with warnings… 🎭"
+msgstr ""
+
+#: Game.Levels.Proposition.L05_And
+msgid "And"
+msgstr ""
+
+#: Game
+msgid "The Natural Numbers Video Game is a version of the Natural Number Game made for\n"
+"Visual Lean's drag-and-drop interface."
+msgstr ""
+
+#: Game
+msgid "A Natural Number Game built for Visual Lean. Start with substitutions and\n"
+"propositions, then go wherever the map leads."
+msgstr ""
+
+#. §0: `rw [h]`
+#. §1: `h`
+#. §2: `rw [← h]`
+#: Game.Metadata
+msgid "§0 rewrites the goal with the equality §1, replacing its left side by its\n"
+"right side. §2 rewrites from right to left."
+msgstr ""
+
+#. §0: `exact h`
+#. §1: `h`
+#: Game.Metadata
+msgid "§0 closes the goal with §1, whose type must be exactly the goal."
+msgstr ""
+
+#: Game.Levels.RewriteBonus
+msgid "A bonus puzzle. You don't need it to continue along Rewrite World."
+msgstr ""
+
+#: Game.Levels.Proposition.L03_ModusPonens
+msgid "Modus Ponens"
+msgstr ""
+
+#: Game.Levels.Rewrite
+msgid "Rewrite World"
+msgstr ""
+
+#: Game.Levels.Rewrite.L03_Backwards
+msgid "Backwards"
+msgstr ""
+
+#: Game.Levels.RewriteBonus.L01_FixedPoint
+msgid "Fixed Point"
+msgstr ""
+
+#: Game.Levels.Proposition.L04_Chains
+msgid "Chains"
+msgstr ""
+
+#: Game
+msgid "Welcome to the Natural Numbers Video Game! It is played in Visual Lean: you build\n"
+"proofs by dragging and clicking, and a Lean server checks every move."
+msgstr ""
+
+#: Game.Levels.RewriteBonus
+msgid "Rewrite World Bonus"
+msgstr ""
+
+#: Game.Levels.Rewrite.L04_GeneralRules
+msgid "General Rules"
+msgstr ""
