@@ -14,7 +14,7 @@ Welcome to the Natural Numbers Video Game!
 
 Though you'll be using a simplified visual interface, make no mistake: running in the
 background on your device is a Lean server translating every move into formal
-mathematical code. This is not just a game about mathematics: it is mathematics!
+mathematical code. This is not just a game about mathematics: it *is* mathematics!
 
 So, without further ado, let's get started!
 "

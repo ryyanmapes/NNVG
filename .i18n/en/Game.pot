@@ -1,12 +1,133 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.28.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03\n"
+"POT-Creation-Date: 2026-11-05\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit"
+
+#: Game.Levels.Rewrite.L02_ManySubstitutions
+msgid "Many Substitutions"
+msgstr ""
+
+#: Game.Levels.Proposition
+#: Game.Levels.PropositionRight
+msgid "Proposition World"
+msgstr ""
+
+#: Game.Levels.Proposition.L01_MatchingGoals
+msgid "Matching Goals"
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "intermediate goal solved! 🎉"
+msgstr ""
+
+#: Game.Levels.Intro.L01_Welcome
+#: Game.Levels.Intro
+msgid "Welcome"
+msgstr ""
+
+#: Game.Levels.Intro.L01_Welcome
+msgid "Welcome to the Natural Numbers Video Game!\n"
+"\n"
+"Though you'll be using a simplified visual interface, make no mistake: running in the\n"
+"background on your device is a Lean server translating every move into formal\n"
+"mathematical code. This is not just a game about mathematics: it *is* mathematics!\n"
+"\n"
+"So, without further ado, let's get started!"
+msgstr ""
+
+#: Game.Levels.Induction.L02_AddOne
+msgid "Adding One"
+msgstr ""
+
+#: Game.Levels.Proposition.L02_Implication
+msgid "Implication"
+msgstr ""
+
+#: Game.Levels.PropositionBonus.L01_AllTogether
+msgid "All Together"
+msgstr ""
+
+#: Game.Levels.Rewrite
+msgid "Prove equalities by substituting equal things for each other until both sides match."
+msgstr ""
+
+#: Game
+msgid "Natural Numbers Video Game"
+msgstr ""
+
+#: Game.Levels.Proposition.L05_And
+msgid "And"
+msgstr ""
+
+#: GameServer.CompletionMessages
+#: GameServer.RpcHandlers
+msgid "level completed with warnings… 🎭"
+msgstr ""
+
+#: Game
+msgid "The Natural Numbers Video Game is a version of the Natural Number Game made for\n"
+"Visual Lean's drag-and-drop interface."
+msgstr ""
+
+#: Game.Levels.Induction
+#: Game.Levels.InductionJoined
+msgid "Induction World"
+msgstr ""
+
+#. §0: `exact h`
+#. §1: `h`
+#: Game.Metadata
+msgid "§0 closes the goal with §1, whose type must be exactly the goal."
+msgstr ""
+
+#: Game.Levels.Proposition.L03_ModusPonens
+msgid "Modus Ponens"
+msgstr ""
+
+#: Game.Levels.Rewrite.L03_Backwards
+msgid "Backwards"
+msgstr ""
+
+#: Game.Levels.RewriteBonus.L01_FixedPoint
+msgid "Fixed Point"
+msgstr ""
+
+#: Game.Levels.Rewrite.L06_Boss
+msgid "Rewrite Boss"
+msgstr ""
+
+#: Game.Levels.Induction.L03_Boss
+msgid "Induction Boss"
+msgstr ""
+
+#: Game.Levels.PropositionBonus
+msgid "Proposition World Bonus"
+msgstr ""
+
+#: Game.Levels.InductionBonus
+msgid "A bonus puzzle. You don't need it to continue along Induction World."
+msgstr ""
+
+#: Game.Levels.Proposition.L04_Chains
+msgid "Chains"
+msgstr ""
+
+#: Game.Levels.Rewrite.L05_Fractions
+msgid "Fractions"
+msgstr ""
+
+#: Game.Levels.RewriteBonus
+msgid "Rewrite World Bonus"
+msgstr ""
+
+#: Game.Levels.Rewrite.L04_GeneralRules
+msgid "General Rules"
+msgstr ""
 
 #: Game
 msgid "Prove things about the natural numbers by dragging and clicking."
@@ -21,78 +142,63 @@ msgstr ""
 msgid "Splitting And"
 msgstr ""
 
-#: Game.Levels.Rewrite.L02_ManySubstitutions
-msgid "Many Substitutions"
+#: Game.Levels.Induction
+#: Game.Levels.InductionJoined
+msgid "Build the natural numbers from scratch, and prove the basic properties of addition."
+msgstr ""
+
+#. §0: `one_eq_succ_zero`
+#. §1: `1 = S 0`
+#: Game.Levels.Induction.L01_Successor
+#: Game.Levels.Induction.L01_Successor
+#: Game.Levels.Induction.L01_Successor
+#: Game.Levels.Induction.L01_Successor
+#: Game.Levels.Induction.L02_AddOne
+#: Game.Levels.Induction.L02_AddOne
+#: Game.Levels.Induction.L02_AddOne
+msgid "§0 is a proof of §1."
+msgstr ""
+
+#. §0: `x + y = y + x`
+#. §1: `add_comm`
+#. §2: `add_zero`
+#. §3: `zero_add`
+#: Game.Levels.InductionJoined.L01_ZeroAdd
+msgid "This lemma would have been easy if we had known that §0. That theorem\n"
+"is called §1 and it is *true*, but unfortunately its proof *uses* both\n"
+"§2 and §3!"
+msgstr ""
+
+#. §0: `zero_add`
+#: Game.Levels.InductionJoined.L01_ZeroAdd
+#: Game.Levels.InductionBonus.L01_TwoAddTwo
+msgid "§0"
+msgstr ""
+
+#: Game.Levels.RewriteBonus.L02_Inverses
+msgid "Inverses"
+msgstr ""
+
+#: Game.Levels.PropositionBonus
+msgid "A bonus puzzle. You don't need it to continue along Proposition World."
 msgstr ""
 
 #: Game.Levels.Proposition
-msgid "Proposition World"
-msgstr ""
-
-#: Game.Levels.Proposition.L01_MatchingGoals
-msgid "Matching Goals"
-msgstr ""
-
-#: GameServer.RpcHandlers
-msgid "intermediate goal solved! 🎉"
-msgstr ""
-
-#: Game.Levels.Intro.L01_Welcome
-msgid "Welcome to the Natural Numbers Video Game!\n"
-"\n"
-"Though you'll be using a simplified visual interface, make no mistake: running in the\n"
-"background on your device is a Lean server translating every move into formal\n"
-"mathematical code. This is not just a game about mathematics: it is mathematics!\n"
-"\n"
-"So, without further ado, let's get started!"
-msgstr ""
-
-#: Game.Levels.Intro.L01_Welcome
-#: Game.Levels.Intro
-msgid "Welcome"
-msgstr ""
-
-#: Game.Levels.Proposition.L02_Implication
-msgid "Implication"
-msgstr ""
-
-#: Game.Levels.Rewrite
-msgid "Prove equalities by substituting equal things for each other until both sides match."
-msgstr ""
-
-#: Game.Levels.Proposition
+#: Game.Levels.PropositionRight
 msgid "Prove propositions by combining what you know."
-msgstr ""
-
-#: Game
-msgid "Natural Numbers Video Game"
 msgstr ""
 
 #: Game.Levels.Rewrite.L01_Substitution
 msgid "Substitution"
 msgstr ""
 
-#: Game.Levels.Rewrite.L05_ClickToRewrite
-msgid "Click to Rewrite"
-msgstr ""
-
-#: GameServer.CompletionMessages
-#: GameServer.RpcHandlers
-msgid "level completed with warnings… 🎭"
-msgstr ""
-
-#: Game.Levels.Proposition.L05_And
-msgid "And"
-msgstr ""
-
-#: Game
-msgid "The Natural Numbers Video Game is a version of the Natural Number Game made for\n"
-"Visual Lean's drag-and-drop interface."
-msgstr ""
-
 #: Game
 msgid "A Natural Number Game built for Visual Lean. Start with substitutions and\n"
 "propositions, then go wherever the map leads."
+msgstr ""
+
+#: Game.Levels.PropositionRight.L02_False
+msgid "False"
 msgstr ""
 
 #. §0: `rw [h]`
@@ -103,34 +209,63 @@ msgid "§0 rewrites the goal with the equality §1, replacing its left side by i
 "right side. §2 rewrites from right to left."
 msgstr ""
 
-#. §0: `exact h`
-#. §1: `h`
-#: Game.Metadata
-msgid "§0 closes the goal with §1, whose type must be exactly the goal."
-msgstr ""
-
 #: Game.Levels.RewriteBonus
-msgid "A bonus puzzle. You don't need it to continue along Rewrite World."
-msgstr ""
-
-#: Game.Levels.Proposition.L03_ModusPonens
-msgid "Modus Ponens"
+msgid "Bonus puzzles. You don't need them to continue along Rewrite World."
 msgstr ""
 
 #: Game.Levels.Rewrite
 msgid "Rewrite World"
 msgstr ""
 
-#: Game.Levels.Rewrite.L03_Backwards
-msgid "Backwards"
+#: Game.Levels.PropositionRight.L01_Or
+msgid "Or"
 msgstr ""
 
-#: Game.Levels.RewriteBonus.L01_FixedPoint
-msgid "Fixed Point"
+#. §0: $0+n=n$
+#. §1: $n$
+#. §2: $n+0=n$
+#. §3: `add_zero`
+#. §4: `zero_add`
+#. §5: `0 + n = n`
+#. §6: `0 + n`
+#. §7: `add_zero`
+#. §8: `add_succ`
+#. §9: `n`
+#. §10: `0`
+#. §11: `induction`
+#. §12: `0 + 0 = 0`
+#. §13: `0 + d = d`
+#. §14: `0 + S d = S d`
+#. §15: `0`
+#: Game.Levels.InductionJoined.L01_ZeroAdd
+msgid "In this level we're going to prove that §0, where §1 is a secret natural number.\n"
+"\n"
+"Wait, don't we already know that? No! We know that §2, but that's §3.\n"
+"This is §4, which is different.\n"
+"\n"
+"The difficulty with proving §5 is that we do not have a *formula* for\n"
+"§6 in general, we can only use §7 and §8 once\n"
+"we know whether §9 is §10 or a successor. The §11 tactic splits into these two cases.\n"
+"\n"
+"The base case will require us to prove §12, and the inductive step\n"
+"will ask us to show that if §13 then §14. Because\n"
+"§15 and successor are the only way to make numbers, this will cover all the cases.\n"
+"\n"
+"See if you can do your first induction proof in Lean."
 msgstr ""
 
-#: Game.Levels.Proposition.L04_Chains
-msgid "Chains"
+#. §0: `zero_add x`
+#. §1: `0 + x = x`
+#: Game.Levels.InductionJoined.L01_ZeroAdd
+msgid "§0 is the proof of §1."
+msgstr ""
+
+#: Game.Levels.InductionBonus
+msgid "Induction World Bonus"
+msgstr ""
+
+#: Game.Levels.Induction.L01_Successor
+msgid "The Successor"
 msgstr ""
 
 #: Game
@@ -138,10 +273,19 @@ msgid "Welcome to the Natural Numbers Video Game! It is played in Visual Lean: y
 "proofs by dragging and clicking, and a Lean server checks every move."
 msgstr ""
 
-#: Game.Levels.RewriteBonus
-msgid "Rewrite World Bonus"
-msgstr ""
-
-#: Game.Levels.Rewrite.L04_GeneralRules
-msgid "General Rules"
+#. §0: `induction n with d hd`
+#. §1: `n`
+#. §2: `d`
+#. §3: `hd`
+#. §4: `0 + n = n`
+#. §5: `0 + 0 = 0`
+#. §6: `hd : 0 + d = d`
+#. §7: `0 + S d = S d`
+#: Game.Metadata
+msgid "§0 attempts to prove the goal by induction on §1, with the\n"
+"inductive variable in the successor case being §2, and the inductive hypothesis\n"
+"being §3.\n"
+"\n"
+"If the goal is §4, it turns into two goals. The first is §5; the second\n"
+"has an assumption §6 and goal §7."
 msgstr ""

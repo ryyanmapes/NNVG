@@ -14,4 +14,5 @@ Statement (a b c : ℕ) (zero_add_zero : (0 : ℕ) + 0 = 0)
     0 = (a + b) + c := by
   rw [hypothesis_a, hypothesis_b, hypothesis_c, zero_add_zero, zero_add_zero]
 
-VisualTransformText "You may need to make many substitutions to complete a proof!"
+VisualTransformText "You may need to make many substitutions to complete a proof!
+Instead of dragging hypotheses, you can also {pc: click | mobile: tap} them to make the first substitution possible (reading left to right)."

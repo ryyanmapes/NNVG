@@ -1,4 +1,5 @@
 import Game.Levels.RewriteBonus.L01_FixedPoint
+import Game.Levels.RewriteBonus.L02_Inverses
 
 World "RewriteBonus"
 Title "Rewrite World Bonus"
@@ -8,5 +9,5 @@ VisualBonusOf Rewrite 3
 
 Introduction
 "
-A bonus puzzle. You don't need it to continue along Rewrite World.
+Bonus puzzles. You don't need them to continue along Rewrite World.
 "

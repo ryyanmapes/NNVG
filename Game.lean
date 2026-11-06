@@ -2,6 +2,11 @@ import Game.Levels.Intro
 import Game.Levels.Rewrite
 import Game.Levels.RewriteBonus
 import Game.Levels.Proposition
+import Game.Levels.PropositionRight
+import Game.Levels.PropositionBonus
+import Game.Levels.Induction
+import Game.Levels.InductionJoined
+import Game.Levels.InductionBonus
 
 Title "Natural Numbers Video Game"
 
@@ -26,6 +31,18 @@ propositions, then go wherever the map leads."
 Dependency Intro → Rewrite
 Dependency Intro → Proposition
 
+-- Rewrite World leads to Induction World.
+Dependency Rewrite → Induction
+
+-- Proposition World forks: its left branch joins the middle of Induction World, which
+-- can't continue until both are finished, and its right branch carries on alone.
+Dependency Induction → InductionJoined
+Dependency Proposition → InductionJoined
+Dependency Proposition → PropositionRight
+
 VisualPathMap
+
+-- In this game, a proof of `False` closes any goal, with no `exfalso` step.
+VisualFastExfalso
 
 MakeGame
