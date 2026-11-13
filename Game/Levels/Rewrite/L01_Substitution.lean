@@ -3,7 +3,7 @@ import Game.Metadata
 World "Rewrite"
 Level 1
 
-Title "Substitution"
+Title "Basic Rewriting"
 
 VisualLevelNumber "0"
 VisualRewriteOnly

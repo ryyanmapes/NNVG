@@ -2,6 +2,11 @@ import GameServer
 import Game.MyNat.Definition
 import Game.MyNat.Fraction
 import Game.MyNat.Induction
+import Game.MyNat.Multiplication
+import Game.MyNat.Power
+import Game.MyNat.LE
+import Game.Tactic.Cases
+import Game.Tactic.Xyzzy
 
 /-- `rw [h]` rewrites the goal with the equality `h`, replacing its left side by its
 right side. `rw [← h]` rewrites from right to left. -/

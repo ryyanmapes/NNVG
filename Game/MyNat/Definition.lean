@@ -56,4 +56,23 @@ theorem three_eq_succ_two : (3 : MyNat) = S 2 := rfl
 /-- `four_eq_succ_three` is a proof of `4 = S 3`. -/
 theorem four_eq_succ_three : (4 : MyNat) = S 3 := rfl
 
+/-- `reflection n` is a proof of `n = n`. -/
+theorem reflection (n : MyNat) : n = n := rfl
+
+/-- `succ_inj a b` is a proof that `S a = S b` implies `a = b`. -/
+theorem succ_inj (a b : MyNat) (h : S a = S b) : a = b := MyNat.S.inj h
+
+/-- `zero_ne_succ a` is a proof of `0 ≠ S a`. -/
+theorem zero_ne_succ (a : MyNat) : 0 ≠ S a := fun h => MyNat.noConfusion h
+
+/-- `one_ne_zero` is a proof of `1 ≠ 0`. -/
+theorem one_ne_zero : (1 : MyNat) ≠ 0 := fun h => zero_ne_succ 0 h.symm
+
+/-- `peano_cases a` is a proof of `a = 0 ∨ ∃ b, a = S b`: every number is zero or a
+successor. -/
+theorem peano_cases (a : MyNat) : a = 0 ∨ ∃ b, a = S b :=
+  match a with
+  | .zero => .inl rfl
+  | .S b => .inr ⟨b, rfl⟩
+
 end MyNat

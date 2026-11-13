@@ -3,7 +3,7 @@ import Game.Metadata
 World "Proposition"
 Level 1
 
-Title "Matching Goals"
+Title "Basic Propositions"
 
 VisualLevelNumber "0"
 

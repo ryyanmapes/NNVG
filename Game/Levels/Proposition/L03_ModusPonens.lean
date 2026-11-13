@@ -3,7 +3,7 @@ import Game.Metadata
 World "Proposition"
 Level 3
 
-Title "Modus Ponens"
+Title "Implications (2)"
 
 VisualLevelNumber "2"
 

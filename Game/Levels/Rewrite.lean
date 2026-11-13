@@ -11,6 +11,9 @@ Title "Rewrite World"
 VisualWorldColor amber
 VisualMapColumn -1
 
+-- Rewrite Mode's swap-sides button is hidden throughout this world.
+VisualHideSwapSides
+
 Introduction
 "
 Prove equalities by substituting equal things for each other until both sides match.

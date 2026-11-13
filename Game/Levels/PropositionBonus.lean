@@ -3,8 +3,8 @@ import Game.Levels.PropositionBonus.L01_AllTogether
 World "PropositionBonus"
 Title "Proposition World Bonus"
 
--- Sprouts off the right branch of Proposition World after its level 6 (Lean level 1).
-VisualBonusOf PropositionRight 1
+-- Sprouts off the right branch of Proposition World after its level 8 (Lean level 2).
+VisualBonusOf PropositionRight 2
 
 Introduction
 "

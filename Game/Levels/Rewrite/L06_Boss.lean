@@ -3,7 +3,7 @@ import Game.Metadata
 World "Rewrite"
 Level 6
 
-Title "Rewrite Boss"
+Title "On The Count of Three (Rewriting World Boss)"
 
 VisualLevelNumber "5"
 VisualRewriteOnly
